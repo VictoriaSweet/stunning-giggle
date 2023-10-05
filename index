@@ -1,6 +1,9 @@
 // GIVEN a command-line application that accepts user input
+
 // WHEN I am prompted for information about my application repository
 // THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+
+
 // WHEN I enter my project title
 // THEN this is displayed as the title of the README
 
@@ -34,7 +37,7 @@
 const inquirer = require("inquirer");
 const markdown = "./generalMarkdown.js";
 let questions = "";
-for (let index = questions.length; index < questions.length; index++) {}
+for (let index = 0; index < questions.length; index++) {}
 
 
 inquirer.prompt([
@@ -84,9 +87,9 @@ name: "answer",
 ]).then((response)=>
 response.answer === response.answer,
 console.log('user input response'));
-for (let answer = 5; answer < array.length; answer++) {
-const element = array[answer];
-}
+// for (let answer = 5; answer < array.length; answer++) {
+// const element = array[answer];
+// }
 
 
 console.log(questions);
